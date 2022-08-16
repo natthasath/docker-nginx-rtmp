@@ -1,0 +1,16 @@
+{
+  "site_title":"RTMP Monitoring",
+  "http_server_port":9991,
+  "rtmp_server_refresh":3000,
+  "rtmp_server_timeout":15000,
+  "rtmp_server_url":"http://10.100.100.82:1980/stat.xml",
+  "rtmp_server_stream_url":"rtmp://10.100.100.82/stream/",
+  "rtmp_server_control_url":"http://10.100.100.82:1980/control",
+  "session_secret_key":"nida",
+  "username":"admin",
+  "password":"Knine#48",
+  "language":"en",
+  "template":"default",
+  "login_template":"login",
+  "version":"1.0.2"
+}
