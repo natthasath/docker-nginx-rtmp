@@ -1,3 +1,1 @@
 *.yml linguist-detectable=true
-*.js linguist-language=YAML
-*.xsl linguist-language=YAML
