@@ -1,8 +1,7 @@
 version: '3.9'
 services:
   nginx-rtmp:
-    #image: tiangolo/nginx-rtmp:latest
-    image: nginx-rtmp:latest
+    image: tiangolo/nginx-rtmp:latest
     container_name: nginx-rtmp
     restart: always
     ports:
