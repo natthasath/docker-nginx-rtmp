@@ -1,6 +1,6 @@
 # 🎉 Docker Nginx RTMP FSTV
 
-Stream Real-Time Messaging Protocol (RTMP), Apple HTTP Live Streaming (HLS), and Dynamic Adaptive Streaming over HTTP (DASH).
+Nginx RTMP and FSTV are open-source tools that enable video streaming. Nginx RTMP is a module for Nginx web server that adds RTMP support, FSTV is a web-based front-end for Nginx RTMP that allows for easy management and monitoring.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
