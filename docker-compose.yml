@@ -5,13 +5,12 @@ services:
     container_name: nginx-rtmp
     restart: always
     ports:
-      - 1935:1935
-      - 1980:80
+      - ${RTMP_PORT}:1935
   web:
     build: .
     container_name: nginx-fstv
     ports:
-      - 9991:9991
+      - ${APP_PORT}:9991
     networks:
       - default
     volumes:
